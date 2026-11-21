@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -11,12 +10,9 @@ public class Main {
         return area;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner();
         int b,h;
-        System.out.println("Enter base:");
-        b=sc.nextInt();
-        System.out.println("Enter height: ");
-        h=sc.nextInt();
+        b=5;
+        h=10;
         Double area;
         area=areaoftriangle(b,h);
         System.out.println("Area of triangle: "+area);
