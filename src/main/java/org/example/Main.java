@@ -6,7 +6,7 @@ package org.example;
 public class Main {
     public static Double areaoftriangle(int b,int h){
         if(b==0 || h==0){
-            System.out.println("Base or height can not be zero");git fetch
+            System.out.println("Base or height can not be zero");
         }
         Double area;
         area=0.5*b*h;
