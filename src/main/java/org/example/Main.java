@@ -5,6 +5,9 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static Double areaoftriangle(int b,int h){
+        if(b==0 || h==0){
+            System.out.println("Base or height can not be zero");git fetch
+        }
         Double area;
         area=0.5*b*h;
         return area;
